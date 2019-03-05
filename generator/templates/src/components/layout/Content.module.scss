@@ -1,0 +1,14 @@
+$ContentMgl: 200px;
+$ContentBgColor: #f0f6fa;
+$Interval: 20px;
+
+.Content {
+  padding-top: $NavbarHeight + $Interval;
+  padding-left: $Interval;
+  margin-left: $ContentMgl;
+  background: $ContentBgColor;
+  position: relative;
+  transition: .2s ease-in;
+  box-sizing: border-box;
+  min-height: 100vh;
+}

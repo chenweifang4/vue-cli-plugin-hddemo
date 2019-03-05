@@ -1,0 +1,43 @@
+.Login {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  background: #ddd;
+  background: linear-gradient(to bottom,#304a5b 0,#49718c 100%);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &Container {
+    width: 360px;
+    &Logo {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+    }
+    &Input {
+      height: 40px!important;
+      margin-bottom: 20px;
+    }
+    &Button {
+      width: 100%;
+      height: 40px;
+      box-sizing: border-box;
+    }
+    &Guide {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      &Active {
+        cursor: pointer;
+        color: $ThemeColor;
+      }
+    }
+  }
+}

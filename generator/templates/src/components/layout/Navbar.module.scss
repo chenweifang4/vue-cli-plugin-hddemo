@@ -1,0 +1,69 @@
+$NavbarBgColor: #1f3543;
+$NavbarColor: #81c3b9;
+
+.Navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+  background: $NavbarBgColor;
+  color: $NavbarColor;
+  height: $NavbarHeight;
+}
+
+.NavbarWrapper {
+  min-height: $NavbarHeight;
+  padding: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.NavbarWrapperHeader {
+  width: $SidebarWidth;
+  line-height: $NavbarHeight;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  transition: .2s ease-in;
+  text-align: center;
+}
+.NavbarWrapperContent {
+  margin-left: $SidebarWidth;
+  height: $NavbarHeight;
+  flex-grow: 1;
+}
+.genNavbarContentLeftUl {
+  float: left;
+}
+.genNavbarContentRightUl {
+  float: right;
+}
+
+.genNavbarContentLeftUl,
+.genNavbarContentRightUl {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: $NavbarHeight;
+  & > li {
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    min-width: 100px;
+    padding: 0px 10px;
+    cursor: pointer;
+  }
+}
+.genNavbarContentLeftUlLiActive {
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 4px;
+    background-color: $NavbarColor;
+  }
+}
