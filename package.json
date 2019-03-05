@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-hddemo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue-cli-plugin-demo",
   "main": "index.js",
   "scripts": {
