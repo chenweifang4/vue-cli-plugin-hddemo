@@ -1,8 +1,8 @@
 module.exports = [
   {
-    name: `addExample`,
+    name: `initLayout`,
     type: 'confirm',
-    message: 'Add example component to components folder?',
+    message: '是否初始化布局？',
     default: false,
   },
 ]
