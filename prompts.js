@@ -3,13 +3,20 @@
  * 1. 只有内建插件可以定制创建新项目时的初始化对话
  * 2. 一个对话模块应该导出一个函数
  */
+
+const path = require('path')
+const resolve = file => path.resolve(__dirname, file)
+const presets = require(resolve('./util/presets.js'))
 module.exports = [
   {
-    name: `initLayout`,
-    type: 'confirm',
-    message: '是否初始化布局？',
-    default: true,
-  },
+    name: 'preset',
+    message: 'Choose a preset: ',
+    type: 'list',
+    choices: [
+      ...presets
+    ],
+    default: 'default'
+  }
 ]
 
 /**

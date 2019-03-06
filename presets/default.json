@@ -1,0 +1,9 @@
+{
+  "useConfigFiles": true,
+  "cssPreprocessor": "scss",
+  "plugins": {
+    "vue-cli-plugin-hddemo": {
+      "replaceComponents": true
+    }
+  }
+}
