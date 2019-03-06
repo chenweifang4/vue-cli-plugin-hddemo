@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-hddemo",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "vue cli plugin to add hddemo",
   "main": "index.js",
   "scripts": {

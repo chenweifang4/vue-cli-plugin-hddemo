@@ -1,5 +1,3 @@
-const utils = require('./helpers')(api)
-
 const addDependencies = function (api) {
   api.extendPackage({
     dependencies: {
@@ -10,6 +8,7 @@ const addDependencies = function (api) {
 }
 
 const injectImports = function (api) {
+  const utils = require('./helpers')(api)
   api.injectImports(utils.getMain(), `import './plugins/dove.js'`)
 }
 
