@@ -20,7 +20,7 @@ export default {
     genNavbarHeader () {
       return (
         <div class={ this.$style.NavbarWrapperHeader }>
-          Hiido Header
+          Navbar Header
         </div>
       )
     },
@@ -35,8 +35,8 @@ export default {
     genNavbarContentLeft () {
       return (
         <ul class={ this.$style.genNavbarContentLeftUl }>
-          <li class={ this.$style.genNavbarContentLeftUlLiActive }>Navbar</li>
-          <li>Navbar2</li>
+          <li class={ this.$style.genNavbarContentLeftUlLiActive }>Item</li>
+          <li>Item2</li>
         </ul>
       )
     },
