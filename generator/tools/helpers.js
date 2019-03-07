@@ -1,7 +1,6 @@
 // adapted from https://github.com/vuetifyjs/vue-cli-plugin-vuetify/blob/dev/generator/helpers.js
 const fs = require('fs')
 const path = require('path')
-const resolve = file => path.resolve(__dirname, file)
 const rd = require('rd')
 
 const fn = () => {

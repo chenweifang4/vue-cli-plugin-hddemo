@@ -4,20 +4,20 @@ const templatesDir = helpers.resolve('../templates')
 
 /**
  * 添加依赖
- * @param {*} api 
+ * @param {*} api
  */
 const addDependencies = function (api) {
   api.extendPackage({
     dependencies: {
-      "@yy/dove": "^0.3.1",
-      "vue-router": "^3.0.2"
+      '@yy/dove': '^0.3.1',
+      'vue-router': '^3.0.2'
     }
   })
 }
 
 /**
  * 注入 import 语句
- * @param {*} api 
+ * @param {*} api
  */
 const injectImports = (api) => {
   injectImportsToMain(api)
@@ -25,7 +25,7 @@ const injectImports = (api) => {
 
 /**
  * 注入 import 语句到 main文件
- * @param {*} api 
+ * @param {*} api
  */
 const injectImportsToMain = (api) => {
   // const mainPath = helpers.getMain(api)
@@ -44,8 +44,8 @@ const injectImportsToMain = (api) => {
 
 /**
  * 获取渲染的对象
- * @param {*} dir 
- * @param {*} cutout 
+ * @param {*} dir
+ * @param {*} cutout
  */
 const getRenderObj = (dir, cutout = 'templates') => {
   let ret = {}
