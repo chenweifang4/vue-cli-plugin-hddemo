@@ -1,10 +1,9 @@
-$ContentHeight: 50px;
 $ContentMgl: 200px;
 $ContentBgColor: #f0f6fa;
 $Interval: 20px;
 
 .Content {
-  padding-top: $ContentHeight + $Interval;
+  padding-top: $NavbarHeight + $Interval;
   padding-left: $Interval;
   margin-left: $ContentMgl;
   background: $ContentBgColor;

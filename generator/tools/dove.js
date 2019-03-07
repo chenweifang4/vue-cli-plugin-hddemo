@@ -10,7 +10,7 @@ const addDependencies = function (api) {
   api.extendPackage({
     dependencies: {
       "@yy/dove": "^0.3.1",
-      "axios": "^0.18.0"
+      "vue-router": "^3.0.2"
     }
   })
 }
@@ -19,15 +19,27 @@ const addDependencies = function (api) {
  * 注入 import 语句
  * @param {*} api 
  */
-const injectImports = function (api) {
-  api.injectImports(
-    helpers.getMain(api),
-    `
-      import './plugins/dove.js';
-      import './scss/variables.scss';
-      import './scss/reset.scss'
-    `
-  )
+const injectImports = (api) => {
+  injectImportsToMain(api)
+}
+
+/**
+ * 注入 import 语句到 main文件
+ * @param {*} api 
+ */
+const injectImportsToMain = (api) => {
+  // const mainPath = helpers.getMain(api)
+  // [
+  //   `import router from './routes'`,
+  //   `import './plugins/dove.js'`,
+  //   `import './scss/reset.scss'`,
+  //   `import './scss/global.scss'`
+  // ].forEach(item => {
+  //   api.injectImports(
+  //     mainPath,
+  //     item
+  //   )
+  // })
 }
 
 /**

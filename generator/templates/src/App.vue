@@ -3,7 +3,7 @@
     <navbar></navbar>
     <sidebar></sidebar>
     <main-content>
-      <dv-button type="primary" @click="showMessage">Dove-Button</dv-button>
+      <router-view></router-view>
     </main-content>
   </div>
 </template>
@@ -20,9 +20,6 @@ export default {
     MainContent
   },
   methods: {
-    showMessage () {
-      this.$message.success('Hello Message')
-    }
   }
 }
 </script>

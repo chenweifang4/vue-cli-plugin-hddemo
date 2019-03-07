@@ -1,5 +1,3 @@
-$NavbarHeight: 50px;
-$NavbarWrapperHeader: 200px;
 $NavbarBgColor: #1f3543;
 $NavbarColor: #81c3b9;
 
@@ -21,7 +19,7 @@ $NavbarColor: #81c3b9;
   justify-content: flex-start;
 }
 .NavbarWrapperHeader {
-  width: $NavbarWrapperHeader;
+  width: $SidebarWidth;
   line-height: $NavbarHeight;
   position: fixed;
   top: 0;
@@ -30,7 +28,7 @@ $NavbarColor: #81c3b9;
   text-align: center;
 }
 .NavbarWrapperContent {
-  margin-left: $NavbarWrapperHeader;
+  margin-left: $SidebarWidth;
   height: $NavbarHeight;
   flex-grow: 1;
 }

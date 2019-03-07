@@ -1,17 +1,15 @@
-$SidebarWrapperHeader: 200px;
-$SidebarHeight: 50px;
 $SidebarBgColor: #3a5a6c;
 $SidebarColor: #ffffff;
 .Sidebar {
   position: fixed;
   left: 0;
-  width: $SidebarWrapperHeader;
+  width: $SidebarWidth;
   height: 100%;
   background-color: $SidebarBgColor;
   color: $SidebarColor;
   top: 0;
   z-index: 10;
-  margin-top: $SidebarHeight;
+  margin-top: $NavbarHeight;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
   transition: .2s ease-in;
   padding: 20px 0px;
