@@ -6,15 +6,12 @@
 <script>
 export default {
   name: 'Login',
-  components: {},
-  props: {},
   data () {
-    return {
-    }
+    return {}
   },
   methods: {
     goToLoginIndex () {
-      this.$message.success('登录成功')
+      this.$message.success('登录成功!!')
       this.$router.push('/')
     }
   }

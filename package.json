@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-hddemo",
-  "version": "1.4.21",
+  "version": "1.5.1",
   "description": "vue cli plugin to add hddemo",
   "main": "index.js",
   "scripts": {
@@ -38,7 +38,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,vue}": [
+    "*.{js}": [
       "eslint --fix",
       "git add ."
     ]
