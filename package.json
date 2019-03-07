@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-hddemo",
-  "version": "1.2.1",
+  "version": "1.4.1",
   "description": "vue cli plugin to add hddemo",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/chenweifang4/vue-cli-plugin-hddemo/issues"
   },
-  "homepage": "https://github.com/chenweifang4/vue-cli-plugin-hddemo#readme"
+  "homepage": "https://github.com/chenweifang4/vue-cli-plugin-hddemo#readme",
+  "dependencies": {
+    "rd": "^2.0.1"
+  }
 }
