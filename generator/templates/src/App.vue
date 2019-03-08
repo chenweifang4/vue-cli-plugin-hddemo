@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <navbar></navbar>
-    <sidebar></sidebar>
+    <navbar v-show="!isLoginPage"></navbar>
+    <sidebar v-show="!isLoginPage"></sidebar>
     <main-content>
       <router-view></router-view>
     </main-content>
@@ -9,6 +9,7 @@
 </template>
 
 <script>
+/* eslint-disable */
 import Navbar from '@/components/layout/Navbar'
 import Sidebar from '@/components/layout/Sidebar'
 import MainContent from '@/components/layout/Content'
@@ -19,7 +20,15 @@ export default {
     Sidebar,
     MainContent
   },
-  methods: {
+  data () {
+    return {
+      isLoginPage: true
+    }
+  },
+  watch: {
+    '$route' (newVal) {
+      this.isLoginPage = newVal.name === 'login'
+    }
   }
 }
 </script>
