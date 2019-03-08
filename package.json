@@ -1,10 +1,11 @@
 {
   "name": "vue-cli-plugin-hddemo",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "description": "vue cli plugin to add hddemo",
   "main": "index.js",
   "scripts": {
-    "release": "release-it"
+    "release": "release-it",
+    "changelog": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "chalk": "^2.4.2",
+    "conventional-changelog-cli": "^2.0.12",
     "eslint": "^5.15.1",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.16.0",
