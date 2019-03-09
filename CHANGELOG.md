@@ -1,3 +1,11 @@
+## [0.1.26](https://github.com/chenweifang4/vue-cli-plugin-hddemo/compare/v0.1.24...v0.1.26) (2019-03-09)
+
+### Features
+
+* 添加 sass 相关依赖 ([8eb2b66](https://github.com/chenweifang4/vue-cli-plugin-hddemo/commit/8eb2b66))
+
+
+
 ## [0.1.25](https://github.com/chenweifang4/vue-cli-plugin-hddemo/compare/v0.1.24...v0.1.25) (2019-03-09)
 
 
