@@ -1,12 +1,11 @@
 const fs = require('fs')
-const path = require('path')
-const resolve = file => path.resolve(__dirname, file)
+const helpers = require('../generator/tools/helpers')()
 
 const PRESET_MAP = {
   default: 'Default (recommended)'
 }
 
-module.exports = fs.readdirSync(resolve('../presets')).map(preset => {
+module.exports = fs.readdirSync(helpers.resolve('../presets')).map(preset => {
   const value = preset.split('.').shift()
 
   return { name: PRESET_MAP[value], value }
