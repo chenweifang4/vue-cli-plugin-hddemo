@@ -3,7 +3,7 @@
 
 ### Features
 
-* init readme reference ([47903f1](https://github.com/chenweifang4/vue-cli-plugin-hddemo/commit/47903f1))
+* init project ([eae2d32](https://github.com/chenweifang4/vue-cli-plugin-hddemo/commit/eae2d32))
 
 
 
