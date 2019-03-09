@@ -59,11 +59,10 @@ const getRenderObj = (dir, cutout = 'templates') => {
 }
 
 const renderFiles = function (api, options) {
-  if (options.preset === 'default') {
-    // Generator 的模板处理
-    // 当你调用 api.render('./template') 时，该 generator 将会使用 EJS 渲染 ./template 中的文件 (相对于 generator 中的文件路径进行解析)
-    api.render(getRenderObj(templatesDir))
-  }
+  // if (options.preset === 'default') {}
+  // Generator 的模板处理
+  // 当你调用 api.render('./template') 时，该 generator 将会使用 EJS 渲染 ./template 中的文件 (相对于 generator 中的文件路径进行解析)
+  api.render(getRenderObj(templatesDir))
 }
 
 module.exports = {
