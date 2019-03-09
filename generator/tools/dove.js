@@ -10,7 +10,9 @@ const addDependencies = function (api) {
   api.extendPackage({
     dependencies: {
       '@yy/dove': '^0.3.1',
-      'vue-router': '^3.0.2'
+      'vue-router': '^3.0.2',
+      'node-sass': '^4.9.2',
+      'sass-loader': '^7.0.3'
     }
   })
 }
