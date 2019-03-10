@@ -23,7 +23,12 @@ vue add hddemeo
 详情见 [CHANGELOG](./CHANGELOG.md)
 
 # TODO
-- [ ] 添加登录页面样式
+- [x] 使用[husky](https://github.com/typicode/husky)管理`git`钩子
+- [x] 规范 `commit-msg`
+- [x] [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)自动生成`CHANGELOG`
+- [x] 添加[release-it](https://github.com/release-it/release-it)`CLI`发布工具
+- [x] 添加登录页面样式
+- [ ] 为什么`rd`不能作为`devDependencies`依赖
 - [ ] 添加使用对话详情供用户选择
 
 ## 参考链接
