@@ -5,6 +5,7 @@
     "requireCleanWorkingDir": false
   },
   "scripts": {
+    "afterRelease": "yarn changelog"
   },
   "npm": {
     "publish": false
