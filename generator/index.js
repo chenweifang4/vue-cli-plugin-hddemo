@@ -5,11 +5,15 @@
  */
 
 const dove = require('./tools/dove')
+
+// 删除使用 vue create 初始化目录时候多余的文件
+dove.removeFiles([
+  '/src/components/HelloWorld.vue'
+])
+
 module.exports = (api, options, rootOptions) => {
   // 添加依赖
   dove.addDependencies(api)
-  // 注入import
-  dove.injectImports(api)
   // 渲染文件
   dove.renderFiles(api, options)
 }

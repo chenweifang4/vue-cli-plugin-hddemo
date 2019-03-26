@@ -15,7 +15,7 @@ vue-cli-plugin-hddemo是一个基于vue-cli3、以 `dove`（基于Vue）为UI组
 
 在确保你已经阅读并清楚上面的前提和提醒后，执行以下命令
 ```
-vue add hddemeo
+vue add hddemo
 ```
 
 # 更新日志
