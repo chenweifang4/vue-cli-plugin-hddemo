@@ -10,7 +10,7 @@ vue-cli-plugin-hddemo是一个基于vue-cli3、以 `dove`（基于Vue）为UI组
 
 **注意**
 
-我们推荐你使用 `vue create` 命令初始化项目后安装该插件，如果你是在已有的项目操作，建议你先把变动的文件提交到`git`仓库，以免被覆盖（==**在安装该插件的时候会对项目目录进行修改**==）
+我们推荐你使用 `vue create` 命令初始化项目后安装该插件，如果你是在已有的项目操作，建议你先把变动的文件提交到`git`仓库，以免被覆盖（**在安装该插件的时候会对项目目录进行修改**）
 
 安装
 
@@ -30,7 +30,6 @@ vue add hddemo
 - [x] [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)自动生成`CHANGELOG`
 - [x] 添加[release-it](https://github.com/release-it/release-it)`CLI`发布工具
 - [x] 添加登录页面样式
-- [ ] 为什么`rd`不能作为`devDependencies`依赖
 - [ ] 添加使用对话详情供用户选择
 
 ## 参考链接
